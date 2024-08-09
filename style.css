@@ -1,0 +1,29 @@
+/* Style for the body element with the 'custom-background' class */
+body.custom-background {
+    /* Sets the background color of the page to a light green shade */
+    background-color: rgb(234, 255, 234);
+  }
+  
+  /* Style for the form with the ID 'task-form' */
+  #task-form {
+    /* Adds a bottom margin to the form for spacing below it */
+    margin-bottom: 2rem; /* 2rem is roughly equivalent to 32 pixels, providing ample space */
+  }
+  
+  /* Style for list items within elements with the 'list-group' class */
+  .list-group-item {
+    /* Makes the list item a flex container */
+    display: flex;
+    
+    /* Distributes space between the items (e.g., task title and delete button) */
+    justify-content: space-between;
+    
+    /* Aligns items vertically to the center */
+    align-items: center;
+  }
+  
+  /* Style for buttons with the 'btn-danger' class (typically used for delete buttons) */
+  .btn-danger {
+    /* Adds left margin to create space between this button and any adjacent elements */
+    margin-left: 1rem; /* 1rem is roughly equivalent to 16 pixels, adding a small space */
+  }
